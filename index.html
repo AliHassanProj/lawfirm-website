@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>LawFirm - Professional Legal Services</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                Law<span>Firm</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="practice-areas.html">Practice Areas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lawyers.html">Lawyers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blogs.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <h1>Your Trusted Legal Partner</h1>
+                    <p class="lead mb-4">Professional legal services with compassion and dedication. We fight for your rights and deliver justice.</p>
+                    <a href="contact.html" class="btn btn-book">Book Consultation <i class="fas fa-arrow-right ms-2"></i></a>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://via.placeholder.com/500x400" alt="Legal" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Practice Areas Preview -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Our Practice Areas</h2>
+                <p>We specialize in various areas of law to serve you better</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="practice-card">
+                        <div class="practice-icon">
+                            <i class="fas fa-family"></i>
+                        </div>
+                        <h4>Family Law</h4>
+                        <p>Compassionate legal support for family matters including divorce, custody, and adoption.</p>
+                        <a href="practice-area-detail.html" class="btn-outline-custom">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="practice-card">
+                        <div class="practice-icon">
+                            <i class="fas fa-gavel"></i>
+                        </div>
+                        <h4>Criminal Law</h4>
+                        <p>Aggressive defense for criminal charges at state and federal levels.</p>
+                        <a href="practice-area-detail.html" class="btn-outline-custom">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="practice-card">
+                        <div class="practice-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h4>Corporate Law</h4>
+                        <p>Expert legal advice for businesses of all sizes.</p>
+                        <a href="practice-area-detail.html" class="btn-outline-custom">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="practice-card">
+                        <div class="practice-icon">
+                            <i class="fas fa-passport"></i>
+                        </div>
+                        <h4>Immigration Law</h4>
+                        <p>Guidance through complex immigration processes and visa applications.</p>
+                        <a href="practice-area-detail.html" class="btn-outline-custom">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="practice-card">
+                        <div class="practice-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h4>Property Law</h4>
+                        <p>Legal services for real estate transactions and disputes.</p>
+                        <a href="practice-area-detail.html" class="btn-outline-custom">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="practice-card">
+                        <div class="practice-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h4>Civil Litigation</h4>
+                        <p>Expert representation in civil disputes and litigation matters.</p>
+                        <a href="practice-area-detail.html" class="btn-outline-custom">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="practice-areas.html" class="btn btn-book">View All Practice Areas</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Why Choose Us -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Why Choose Us</h2>
+                <p>We set ourselves apart through excellence and commitment</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-center">
+                        <i class="fas fa-gavel fa-3x" style="color: #c5a572;"></i>
+                        <h4 class="mt-3">Expert Lawyers</h4>
+                        <p>Our team consists of highly experienced and specialized attorneys</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-center">
+                        <i class="fas fa-clock fa-3x" style="color: #c5a572;"></i>
+                        <h4 class="mt-3">24/7 Support</h4>
+                        <p>We're always available to address your legal concerns</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-center">
+                        <i class="fas fa-hand-holding-heart fa-3x" style="color: #c5a572;"></i>
+                        <h4 class="mt-3">Client First</h4>
+                        <p>Your interests and satisfaction are our top priority</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Lawyers Preview -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Meet Our Lawyers</h2>
+                <p>Dedicated professionals committed to your success</p>
+            </div>
+            <div class="row">
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="lawyer-card">
+                        <img src="https://via.placeholder.com/400x500" class="lawyer-img" alt="John Smith">
+                        <div class="lawyer-info">
+                            <h5>John Smith</h5>
+                            <p class="text-muted">Senior Partner</p>
+                            <small>Criminal Law</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="lawyer-card">
+                        <img src="https://via.placeholder.com/400x500" class="lawyer-img" alt="Sarah Johnson">
+                        <div class="lawyer-info">
+                            <h5>Sarah Johnson</h5>
+                            <p class="text-muted">Managing Partner</p>
+                            <small>Family Law</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="lawyer-card">
+                        <img src="https://via.placeholder.com/400x500" class="lawyer-img" alt="Michael Chen">
+                        <div class="lawyer-info">
+                            <h5>Michael Chen</h5>
+                            <p class="text-muted">Partner</p>
+                            <small>Corporate Law</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="lawyer-card">
+                        <img src="https://via.placeholder.com/400x500" class="lawyer-img" alt="Emily Rodriguez">
+                        <div class="lawyer-info">
+                            <h5>Emily Rodriguez</h5>
+                            <p class="text-muted">Associate Attorney</p>
+                            <small>Immigration Law</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="lawyers.html" class="btn btn-book">View All Lawyers</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Client Testimonials</h2>
+                <p>What our clients say about us</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-card">
+                        <i class="fas fa-quote-left"></i>
+                        <p>John Smith provided excellent representation. He was professional, knowledgeable, and fought hard for my case. I highly recommend this firm.</p>
+                        <div class="mt-3">
+                            <strong>David Thompson</strong>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-card">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Sarah helped me through a difficult divorce with compassion and expertise. She always had my best interests at heart.</p>
+                        <div class="mt-3">
+                            <strong>Maria Garcia</strong>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-card">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Michael helped our startup with all legal matters. His advice was invaluable and his rates were reasonable. Great experience!</p>
+                        <div class="mt-3">
+                            <strong>Robert Williams</strong>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <h2>Get In Touch</h2>
+                    <p class="mb-4">Have questions? We're here to help. Schedule a consultation today.</p>
+                    <div class="mb-3">
+                        <i class="fas fa-map-marker-alt me-3" style="color: #c5a572;"></i>
+                        <span>123 Legal Street, Law City, LC 12345</span>
+                    </div>
+                    <div class="mb-3">
+                        <i class="fas fa-phone me-3" style="color: #c5a572;"></i>
+                        <span>+1 (234) 567-8900</span>
+                    </div>
+                    <div class="mb-3">
+                        <i class="fas fa-envelope me-3" style="color: #c5a572;"></i>
+                        <span>info@lawfirm.com</span>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea name="message" rows="5" class="form-control" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-book">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h5>LawFirm</h5>
+                    <p>Providing expert legal counsel with integrity and dedication. Your trusted partner in justice.</p>
+                    <div class="social-links mt-3">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="practice-areas.html">Practice Areas</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Info</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt me-2"></i> 123 Legal Street, Law City</li>
+                        <li><i class="fas fa-phone me-2"></i> +1 234 567 890</li>
+                        <li><i class="fas fa-envelope me-2"></i> info@lawfirm.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mt-4">
+            <div class="text-center pt-3">
+                <p class="mb-0">&copy; 2024 LawFirm. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
