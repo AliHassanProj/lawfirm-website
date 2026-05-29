@@ -396,7 +396,7 @@ body {
 /* Sticky Sidebar */
 .sticky-top {
     position: sticky;
-    top: 100px;
+    
     z-index: 1020;
 }
 
