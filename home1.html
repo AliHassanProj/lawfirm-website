@@ -28,6 +28,7 @@
             --gray: #6B7280;
             --gray-light: #F5F5F5;
             --white: #FFFFFF;
+            --black: #000000;
             --border: #E5E5E5;
         }
         
@@ -65,25 +66,24 @@
             border-radius: 4px;
         }
         
-        /* Premium Navbar */
+        /* Premium Navbar - BLACK BACKGROUND */
         .navbar {
             padding: 0;
-            background: rgba(255,255,255,0.98);
-            backdrop-filter: blur(10px);
-            border-bottom: 1px solid rgba(0,0,0,0.05);
+            background: #000000;
+            border-bottom: 1px solid rgba(198,164,63,0.2);
             transition: all 0.3s ease;
         }
         
         .navbar.scrolled {
-            background: rgba(255,255,255,0.98);
-            box-shadow: 0 5px 30px rgba(0,0,0,0.05);
+            background: #000000;
+            box-shadow: 0 5px 30px rgba(0,0,0,0.3);
         }
         
         .navbar-brand {
             font-family: 'Cormorant Garamond', serif;
             font-size: 2rem;
             font-weight: 800;
-            color: var(--secondary) !important;
+            color: var(--white) !important;
             letter-spacing: -1px;
             padding: 1.2rem 0;
             position: relative;
@@ -106,7 +106,7 @@
         .nav-link {
             font-size: 0.8rem;
             font-weight: 700;
-            color: var(--secondary) !important;
+            color: var(--white) !important;
             text-transform: uppercase;
             letter-spacing: 1.5px;
             padding: 1.8rem 1.2rem !important;
@@ -136,35 +136,21 @@
             color: var(--primary) !important;
         }
         
-        /* Hero Section with Overlay Image */
+        /* Hero Section - SOLID BLACK BACKGROUND (No Image) */
         .hero {
             position: relative;
             min-height: 100vh;
-            background: linear-gradient(135deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.7) 100%);
+            background: #000000;
             display: flex;
             align-items: center;
             overflow: hidden;
         }
         
-        .hero-background {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            z-index: -2;
-        }
+        /* Remove this entire block - no background image needed */
+        /* .hero-background is REMOVED */
         
-        .hero-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            
-            height: 100%;
-            background: linear-gradient(135deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.75) 100%);
-            z-index: -1;
-        }
+        /* Remove overlay - no longer needed */
+        /* .hero-overlay is REMOVED */
         
         .hero-badge {
             display: inline-block;
@@ -187,12 +173,11 @@
             line-height: 1.1;
             margin-bottom: 1.5rem;
             color: var(--white);
-            text-shadow: 0 2px 20px rgba(0,0,0,0.3);
         }
         
         .hero .lead {
             font-size: 1.2rem;
-            color: rgba(255,255,255,0.85);
+            color: rgba(255,255,255,0.8);
             margin-bottom: 2rem;
             line-height: 1.8;
             max-width: 600px;
@@ -207,10 +192,10 @@
             }
         }
         
-        /* Premium Buttons */
+        /* Premium Buttons - Updated for black background */
         .btn-primary-custom {
             background: var(--primary);
-            color: var(--white);
+            color: #000000;
             padding: 15px 40px;
             font-size: 0.85rem;
             font-weight: 700;
@@ -243,7 +228,7 @@
         }
         
         .btn-primary-custom:hover {
-            color: var(--white);
+            color: #000000;
             transform: translateY(-2px);
             box-shadow: 0 10px 25px rgba(198,164,63,0.3);
         }
@@ -265,7 +250,7 @@
         
         .btn-outline-custom:hover {
             background: var(--primary);
-            color: var(--white);
+            color: #000000;
             transform: translateY(-2px);
             box-shadow: 0 10px 25px rgba(198,164,63,0.2);
         }
@@ -384,7 +369,7 @@
         
         .service-icon i {
             font-size: 2.2rem;
-            color: var(--white);
+            color: #000000;
         }
         
         .service-card h4 {
@@ -450,12 +435,12 @@
         .experience-card h3 {
             font-size: 2.5rem;
             font-weight: 800;
-            color: var(--white);
+            color: #000000;
             margin: 0;
         }
         
         .experience-card p {
-            color: rgba(255,255,255,0.9);
+            color: rgba(0,0,0,0.8);
             font-size: 0.75rem;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -555,7 +540,7 @@
             border-radius: 50%;
             text-align: center;
             line-height: 35px;
-            color: var(--white);
+            color: #000000;
             margin: 0 5px;
             transition: all 0.3s;
         }
@@ -702,20 +687,20 @@
         }
         
         .cta-section h2 {
-            color: var(--white);
+            color: #000000;
             font-size: 2.8rem;
             font-weight: 800;
             margin-bottom: 20px;
         }
         
         .cta-section p {
-            color: rgba(255,255,255,0.9);
+            color: rgba(0,0,0,0.8);
             font-size: 1.1rem;
             margin-bottom: 35px;
         }
         
         .btn-cta-dark {
-            background: var(--secondary);
+            background: #000000;
             color: var(--primary);
             padding: 14px 45px;
             font-size: 0.85rem;
@@ -734,9 +719,9 @@
             color: var(--primary-light);
         }
         
-        /* Footer */
+        /* Footer - BLACK BACKGROUND */
         .footer {
-            background: var(--secondary);
+            background: #000000;
             color: rgba(255,255,255,0.7);
             padding: 60px 0 30px;
         }
@@ -783,7 +768,7 @@
         
         .footer .social-links a:hover {
             background: var(--primary);
-            color: var(--white);
+            color: #000000;
             transform: translateY(-3px);
         }
         
@@ -874,7 +859,7 @@
         <div class="loader"></div>
     </div>
 
-    <!-- Premium Navbar -->
+    <!-- Premium Navbar - BLACK BACKGROUND -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
@@ -908,10 +893,8 @@
         </div>
     </nav>
 
-    <!-- Hero Section with Overlay Image -->
+    <!-- Hero Section - SOLID BLACK BACKGROUND (NO IMAGE) -->
     <section class="hero">
-       <img src="https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=1920&h=1080&fit=crop" alt="Modern Law Office" class="hero-background">
-        <div class="hero-overlay"></div>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-7" data-aos="fade-up" data-aos-duration="1000">
@@ -940,7 +923,6 @@
                             <h3>15+</h3>
                             <p>Expert Attorneys</p>
                         </div>
-                        
                     </div>
                 </div>
             </div>
@@ -1267,26 +1249,26 @@
                     <p>Schedule a confidential consultation with our experienced legal team today</p>
                     <div class="d-flex justify-content-center gap-3 flex-wrap">
                         <a href="contact.html" class="btn-cta-dark">Schedule Consultation</a>
-                        <a href="tel:+1234567890" class="btn-outline-custom" style="border-color: var(--white); color: var(--white);">Call (234) 567-8900</a>
+                        <a href="tel:+1234567890" class="btn-outline-custom" style="border-color: #000000; color: #000000;">Call (234) 567-8900</a>
                     </div>
                     
                     <div class="row justify-content-center mt-5 pt-3">
                         <div class="col-auto">
                             <div class="d-flex align-items-center">
-                                <i class="fas fa-shield-alt me-2" style="color: var(--white);"></i>
-                                <span style="color: var(--white);">100% Confidential</span>
+                                <i class="fas fa-shield-alt me-2" style="color: #000000;"></i>
+                                <span style="color: #000000;">100% Confidential</span>
                             </div>
                         </div>
                         <div class="col-auto">
                             <div class="d-flex align-items-center">
-                                <i class="fas fa-clock me-2" style="color: var(--white);"></i>
-                                <span style="color: var(--white);">Free Consultation</span>
+                                <i class="fas fa-clock me-2" style="color: #000000;"></i>
+                                <span style="color: #000000;">Free Consultation</span>
                             </div>
                         </div>
                         <div class="col-auto">
                             <div class="d-flex align-items-center">
-                                <i class="fas fa-gavel me-2" style="color: var(--white);"></i>
-                                <span style="color: var(--white);">No Win, No Fee*</span>
+                                <i class="fas fa-gavel me-2" style="color: #000000;"></i>
+                                <span style="color: #000000;">No Win, No Fee*</span>
                             </div>
                         </div>
                     </div>
@@ -1295,7 +1277,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer - BLACK BACKGROUND -->
     <footer class="footer">
         <div class="container">
             <div class="row g-4">
